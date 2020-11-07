@@ -47,7 +47,7 @@ function GetBookings(){
      
 function DeleteBooking(id){  
       if(confirm("Are you sure you want to delete?")){ 
-        let url = 'https://api.sheety.co/2454db3dc62818de8c41a972391b8bfe/bookingApp/booking/[Object ID]' + id;
+        let url = 'https://api.sheety.co/2454db3dc62818de8c41a972391b8bfe/bookingApp/booking/[Object ID]]' + id;
         fetch(url, {
          method: 'DELETE',
         })

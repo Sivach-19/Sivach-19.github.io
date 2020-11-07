@@ -24,13 +24,13 @@ function BookNow(guestName,guestEmail,guestPax,guestRemarks){
   }  
 window.addEventListener("load", function(){ 
     document.getElementById("bookNow").addEventListener("click", function(){ 
-        let guestName = document.getElementById("guestName").value; 
-        let guestEmail = document.getElementById("guestEmail").value; 
-        let guestPax = document.getElementById("guestPax").value;   
-        let guestRemarks = document.getElementById("guestRemarks").value;  
+        let name = document.getElementById("guestName").value; 
+        let email = document.getElementById("guestEmail").value; 
+        let pax = document.getElementById("guestPax").value;   
+        let remarks = document.getElementById("guestRemarks").value;  
      
      
-        BookNow(guestName,guestEmail,guestPax,guestRemarks);
+        BookNow(name,email,pax,remarks);
 
     }); 
  
