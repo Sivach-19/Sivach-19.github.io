@@ -1,4 +1,4 @@
-<style>  
+  
 /* use a personalized font via @font-face */
 @font-face{  
    font-family:Arial; 
@@ -64,4 +64,3 @@ ul {
 ol {
   list-style-position: inside;
 }
-</style>
