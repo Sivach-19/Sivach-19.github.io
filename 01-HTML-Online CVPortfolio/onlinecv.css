@@ -1,8 +1,8 @@
-   
+<style>  
 /* use a personalized font via @font-face */
 @font-face{  
-   font-family:myFirstFont; 
-   src:url("40857_VTCSwitchbladeRomanceShadowed.ttf")
+   font-family:Arial; 
+   
   } 
 /* include a background image to the page */
 body {   
@@ -30,7 +30,7 @@ h1  {
     font-weight:bold;
     font-style:italic;
     text-align:center;  /* change the alignment of a paragraph */
-    text-shadow:2px 2px red;  
+    text-shadow:2px 2px blue;  
 } 
 h2  { 
     color:white;    /* change the color of a text element */ 
@@ -38,7 +38,7 @@ h2  {
     font-weight:bold;
     font-style:italic;
     text-align:center;  
-    text-shadow:2px 2px red;  
+    text-shadow:2px 2px blue;  
 }    
 h4  { 
     color:white;    /* change the color of a text element */ 
@@ -55,7 +55,7 @@ img {
     height:20%; 
     border-radius:25px;  
     border-style: dotted; 
-    border-color: coral;
+    border-color: mediumvioletred;
     box-shadow:10px 10px 5px grey;
   }  
 ul {
